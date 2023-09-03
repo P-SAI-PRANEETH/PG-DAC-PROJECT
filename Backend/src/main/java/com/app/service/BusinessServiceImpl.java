@@ -27,7 +27,6 @@ import com.app.repository.AdminRepository;
 import com.app.repository.BusinessRepository;
 import com.app.repository.CityRepository;
 import com.app.repository.StateRepository;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Service
 @Transactional
@@ -44,9 +43,6 @@ public class BusinessServiceImpl implements BusinessService {
 
 	@Autowired
 	private CityRepository cityRepo;
-
-	@Autowired
-	private ObjectMapper objMapper;
 
 	@Autowired
 	private ModelMapper modelMapper;
