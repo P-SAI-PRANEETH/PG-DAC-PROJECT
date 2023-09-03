@@ -1,0 +1,19 @@
+#contact-form{
+    box-shadow: 1px 1px 3px #01BFBd;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+}
+#info{
+    box-shadow: 1px 1px 3px #01BFBd;
+    padding: 20px;
+    width: 100%;
+    margin-left: 1px;
+    margin-top: 5%;
+}
+#btn{
+    background-color: #01BFBd;
+}
+.error{
+    color: red;
+}
