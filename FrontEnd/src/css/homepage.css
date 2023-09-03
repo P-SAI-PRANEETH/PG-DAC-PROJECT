@@ -1,0 +1,25 @@
+#imgcar{
+    height: 600px;
+    width: 100%;
+}
+#box{
+    background: rgba(28, 23, 21, 0.7);
+    color: white;
+    border-top: 5px solid #01BFBd;
+    height: 130px;
+    border-radius: 10px;
+    padding: 5px;
+}
+#cards{
+    padding: 10px;
+    margin-top: 10px;
+}
+#cardiv{
+    margin-top:-10px;
+}
+.main-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3%;
+    row-gap: 3%;
+  }
