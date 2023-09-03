@@ -1,0 +1,5 @@
+package com.app.entities;
+
+public enum Category {
+	CARPENTER, FOOTWEAR, TEXTILE, RESTAURANT, MEDICAL, ARTANDCRAFT, HARDWARE, STATIONERY
+}
